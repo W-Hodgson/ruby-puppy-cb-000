@@ -1,8 +1,10 @@
 # Add your code here
 class Dog
 
-  def initialize()
+  @@all = []
 
+  def initialize()
+    @@all << self
   end
 
 end
