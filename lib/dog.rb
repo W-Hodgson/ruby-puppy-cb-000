@@ -20,4 +20,8 @@ class Dog
   def self.clear_all
     @@all = []
   end
+
+  def print_all
+
+  end
 end
